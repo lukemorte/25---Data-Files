@@ -1,6 +1,7 @@
-# data files
+# data pandas
 
-with open("weather_data.csv") as file:
-    contents = file.read()
+import pandas
 
-print(contents)
+data = pandas.read_csv("weather_data.csv")
+
+print(data["day"])
