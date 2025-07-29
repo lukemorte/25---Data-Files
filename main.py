@@ -33,10 +33,10 @@ while game_loop is True:
 
     if not result.empty:
         titles.add_title(int(result.x), int(result.y), result.state.values[0])
+    elif answer_state == "quit":
+        game_loop = False
     else:
         print(f"stát {answer_state} nenalezen.")
-
-
 
 
 turtle.mainloop()
