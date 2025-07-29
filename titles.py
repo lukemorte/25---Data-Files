@@ -6,7 +6,7 @@ class Titles():
         self.titles: Turtle = []
 
     def add_title(self, x, y, title):
-        print(f"{x}, {y}, {title}")
+        # print(f"{x}, {y}, {title}")
         obj = Turtle()
         obj.penup()
         obj.color("black")
